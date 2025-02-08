@@ -1,0 +1,130 @@
+GUIDA HTML
+
+<!DOCTYPE html> da inserire ad ogni inizio codice, per indicare al web che questo è un file html
+
+<html>
+	<head> 
+		<title></title> 
+	</head>	 	           contenitori maggiori che conterranno il tutto e vengono dopo DOCTYPE, body conterrà tutto il codice della pagina, mentre head 
+	<body>		           raccoglie tutte le informazioni utili al browser ma non lette dall'utente, con title diamo il titolo alla pagina mostrato dalla task
+	</body>	 	   
+</html>
+
+id="titolo-1" attributo da mettere in div o h1 per esempio, e identifica l'elemento
+class="classe1 classe 2" da un tipo di classe agli elementi in cui scriviamo ciò nel div, p o esempi vari
+
+<!--  --> inserisce un commento nel codice
+
+<h1></h1> con hi con i che va da 1 a 6, si usa per i titoli
+
+<p></p> crea paragrafo
+
+<div></div> contenitore 
+
+<hr> stampa linea orizzontale
+
+<b></b> testo formattato in grassetto
+
+<i></i> testo formattato in corsivo
+
+<u></u> testo formattato sottolineato (usalo per i link)
+
+<strong></strong> testo formattato in grassetto
+
+<em></em> testo formattato in corsivo
+
+<br> break, nuova linea si scrive dopo il testo 
+
+<a></a> crea un link (ES: <a href="https://google.it/">link</a>)
+
+target="" o href="" sono attributi in tag:
+href="" in <a></a> mi inserisce un link
+target="_blank" in <a></a> mi apre il link in una nuova scheda (ES: <a target="_blank" href="https://google.it/">avvia motore di ricerca</a>)
+
+<img src="nome.jpeg"> inserisce un'immagine che si ha in locale nella cartella del sito
+<img src="prova.jpg" alt="Descrizione dell'immagine"> con alt gli do una descrizione in caso l'immagine non si caricasse
+<img src="prova.jpg" width="100px"> con width ridimensiono la grandezza dell'immagine mantenendo le proporzioni
+<img src="prova.jpg" width="100px" height="100px"> ridimensiono larghezza e lunghezza
+
+<video width="100px" controls>
+	<source src="prova.mp4" type="video/mp4">
+	Il tuo browser non supporta il video.
+</video>
+(se dopo controls aggiungo autoplay, il video partirà automaticamente)
+		  aggiungo muted, il video sarà muto)
+
+<video width="435px" autoplay muted>
+	<source src="prova.mp4" type="video/mp4">     in questo modo il video partirà automaticamente, mutato, e senza che le persone possano controllarlo	
+	Il tuo browser non supporta il video.
+</video>
+
+<ul>		
+	Lista:<br>
+	<li>Pane</li>	  unordered list, elenco puntato
+	<li>Latte</li>
+	<li>Ravioli</li>
+</ul>
+
+<ol>		 ordered list, elenco numerato
+
+</ol>	
+
+Per gli embed utilizza "Incorpora" nei siti.	 
+
+<p style="
+    color: red;
+    background-color: yellowgreen;		in ordine, con style (CSS) ho inserito colore scritta, colore sfondo,
+    width: 50%;					larghezza in percentuale riferito alla larghezza totale della pagina, lunghezza in pixel, distanza dal margine della pagina
+    height: 100px;				in percentuale e distanza dal margine dello sfondo della scritta in pixel.
+    margin: 25%;
+    padding: 15px;
+">
+Salve a tutti e tutte.
+</p>
+
+<span></span>   lavora solo su una porzione di testo, e con style 
+
+style="font-weight: bold;"  mette il grassetto dentro span
+style="font-size: 10px;"  gestisce il size del testo dentro span
+style="color: pink;"  colora il testo
+
+<style>
+	p{
+	   background-colore: red;	con <style> dentro head, formatto e do indicazioni a tutti gli elementi che specifico all'interno, quindi in questo caso con p
+	}				a tutti i paragrafi, con # indichiamo un elemento identificato con un id, e col . indichiamo una classe
+
+	#titolo-1{
+	}
+
+	.classe-1{
+	}
+		
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
