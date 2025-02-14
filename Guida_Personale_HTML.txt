@@ -35,7 +35,7 @@ class="classe1 classe 2" da un tipo di classe agli elementi in cui scriviamo ci√
 
 <br> break, nuova linea si scrive dopo il testo 
 
-<a></a> crea un link (ES: <a href="https://google.it/">link</a>)
+<a></a> crea un link (ES: <a href="https://google.it/">Questo √® un link</a>)
 
 target="" o href="" sono attributi in tag:
 href="" in <a></a> mi inserisce un link
